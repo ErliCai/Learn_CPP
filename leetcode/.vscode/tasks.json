@@ -1,0 +1,28 @@
+{
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: clang++ compila il file attivo",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-g",
+				"-std=c++11",
+				"${workspaceFolder}/Leetcode0004/MedianTwoSortedArrayTest.cpp",
+                "${workspaceFolder}/Leetcode0004/MedianTwoSortedArray.cpp",
+				//"${workspaceFolder}/**/*.hpp",
+				"-o",
+				"${workspaceFolder}/Leetcode0004/Median.out"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": ["$gcc"],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "Attività generata dal debugger."
+		}
+	],
+	"version": "2.0.0"
+}
